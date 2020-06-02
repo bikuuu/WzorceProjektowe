@@ -8,7 +8,7 @@ public class Circle {
         this.radius = radius;
     }
 
-    public void drow() {
+    public void print() {
         System.out.println("Drow the Circle");
     }
 

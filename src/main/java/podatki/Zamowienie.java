@@ -9,8 +9,11 @@ public class Zamowienie {
     private String adresDostawy;
     private static List<Produkt> listaProduktow;
 
-    KalkulatorPodatku kalkulatorPodatku = new KalkulatorPodatkuPolska();
+    private KalkulatorPodatku kalkulatorPodatku;
 
+    public void setKalkulatorPodatku(KalkulatorPodatku kalkulatorPodatku) {
+        this.kalkulatorPodatku = kalkulatorPodatku;
+    }
 
     public static double obliczCeneZamowienia() {
         double suma = 0;

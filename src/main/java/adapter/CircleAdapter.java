@@ -11,7 +11,7 @@ public class CircleAdapter implements Shape {
 
     @Override
     public void drow() {
-        circle.drow();
+        circle.print();
     }
 
     @Override
